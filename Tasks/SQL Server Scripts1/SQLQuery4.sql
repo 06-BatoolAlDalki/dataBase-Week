@@ -15,9 +15,10 @@ id int , order_number int , totol_price float
 insert into orders values (1,120,200.4);
 insert into orders values (2,121,250);
 
-select * from orders;
+select * from orders ;
 alter table orders add date_order date;
-insert into orders(date_order) values (2022-01-07);
+
+insert into orders(date_order) values ('2022-01-07');
 
 
 
